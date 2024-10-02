@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
 
-:root{
-    
-}
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -243,5 +240,18 @@ hr.solid {
 
 .premium {
     background-color: #080b12;
-    height: 75px;
+    height: 5rem;
+    text-align: center;
+}
+
+.premium-button {
+    width: 250;
+    height: 50;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 999px;
+    float: right;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 18px;
 }
