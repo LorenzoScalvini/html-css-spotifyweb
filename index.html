@@ -9,14 +9,51 @@
 </head>
 <body>
     <main>
-        <div class="spotify">
-            <div class="content">
-                <div class="sidebar"></div>
-                <div class="music"></div>
+        <div class="app">
+            <div class="app-body">
+                <div class="sidebar">
+                        <div>
+                            <img class="logo" src="./img/logo.svg" alt="">
+                        </div>
+                        <div class="menu">
+                            <p><i class="fa-solid fa-house"></i>Home</p>
+                            <p><i class="fa-solid fa-magnifying-glass"></i>Home</p>
+                            <p><i class="fa-solid fa-house"></i>Home</p>
+                        </div>
+                        <div class="playlist">
+                            <span  class="playlist-title">Playlist</span>
+                            <div>
+                                <button class="btn btn-playlist"><i class="fa-solid fa-plus"></i></button>
+                                <span>Crea playlist</span>
+                                <ul>
+                                    <li>Studio Ghibli &#127811;</li>
+                                    <li>K-pop</li>
+                                    <li>My Stuff</li>
+                                    <li>Keshi &#x2665;</li>
+                                    <li>The Legend of Zelda</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="install">
+                            <p><i class="fa-solid fa-download"></i>Installa app</p>
+                            <hr class="solid">
+                            <div class="account-icon">
+                        </div>
+                        <div class="account-name"><img class="account-icon" src="./img/profile.svg" alt="">LoreLore</div>
+                        </div>
+                </div>
+
+
+
+
+
+                <div class="music">
+                    <div class="premium"></div>
+                    <div class="content"></div>
+                </div>
             </div>
-            <div class="spotify-player">
-                <div class="player">
-                    <div class="song-info">
+            <div class="app-player">
+                <div class="song-info">
                         <div>
                             <img class="song-img" src="./img/sinister.jpeg" alt="">
                         </div>
@@ -28,16 +65,30 @@
                             <span><i class="fa-regular fa-heart"></i></span>
                             <span><i class="fa-regular fa-folder"></i></span>
                         </div>
-                    </div>
+                </div>
 
-                    <div class="timeline"></div>
+                    <div class="player">
+                        <div class="controls">
+                            <button class="btn control-icon"><i class="fa-solid fa-shuffle"></i></button>
+                            <button class="btn control-icon"><i class="fa-solid fa-backward"></i></button>
+                            <button class="btn control-icon"><i class="fa-solid fa-play"></i></button>
+                            <button class="btn control-icon"><i class="fa-solid fa-forward"></i></button>
+                            <button class="btn control-icon"><i class="fa-solid fa-rotate-left"></i></button>
+                        </div>
+                        
+                        <div class="timeline">
+                            <div class="progress">1:20</div>
+                            <input type="range" min="1" max="100" value="50" class="timeline-slider">
+                            <div class="total">2:39</div>
+                        </div>
+                    </div>
 
                     <div class="audio-widget">
                         <div class="audio-icon">
                             <div><i class="fa-solid fa-bars"></i></div>
                             <div><i class="fa-solid fa-desktop"></i></div>
                             <div><i class="fa-solid fa-volume-high"></i></div>
-                            <div class="volume"></div>
+                            <div><input type="range" min="1" max="100" value="50" class="volume-slider"></div>
                         </div>
                     </div>
                 </div>
