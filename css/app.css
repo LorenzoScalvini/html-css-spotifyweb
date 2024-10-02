@@ -32,8 +32,10 @@ li {
   }
 
 hr.solid {
+    width: 100%;
     border-top: 1px solid #bbb;
-    margin: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -175,6 +177,23 @@ hr.solid {
     color: #7c7c7c;
 }
 
+.menu-box {
+    display: flex;
+    padding: 0.5rem;
+    border-left: 4px solid transparent;
+
+}
+
+.menu-selected {
+    border-left: 4px solid #9ed359;
+    color: #d3d3d3;
+}
+
+.icon-size {
+    font-size: 32px;
+    padding-left: 1rem;
+}
+
 .playlist {
     color: #d3d3d3;
     margin: 1rem;
@@ -201,18 +220,19 @@ hr.solid {
 }
 
 .account-name {
-    display: inline-block;
+    display: flex;
     font-weight: 800;
     color: #ffffff;
-    text-align: center;
-    margin: 1rem;
-    font-size: 24px;
+    align-items: center;
+    font-size: 18px;
+    gap: 0.5rem;
 }
 
 .account-icon {
     width: 30px;
     background-color: #7c7c7c;
     border-radius: 999px;
+    text-align: center;
 }
 
 /* SPOTIFY MAIN CONTENT */
