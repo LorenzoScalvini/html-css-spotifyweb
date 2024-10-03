@@ -287,10 +287,14 @@ hr.solid {
 
 .content-menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
     padding-top: 1rem;
-    overflow-y: scroll;
+}
+
+.content-items {
+    height: 800px;
 }
 
 .title-content {
@@ -389,6 +393,11 @@ hr.solid {
     
     .menu-item.active::before {
         display: none;
+    }
+
+    .recent-img {
+        width: 150px;
+        height: 150px;
     }
 
 }
