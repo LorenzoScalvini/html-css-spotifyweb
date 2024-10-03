@@ -290,7 +290,6 @@ hr.solid {
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
-    padding-top: 1rem;
 }
 
 .content-items {
@@ -311,7 +310,7 @@ hr.solid {
 .recent {
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
     margin-top: 1rem;
     padding-left: 2rem;
 }
@@ -326,6 +325,15 @@ hr.solid {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.item-title {
+    color: white;
+    font-size: 18px;
+} 
+
+.item-desc {
+    color: #7c7c7c;
 }
 
 /* MEDIUM */
