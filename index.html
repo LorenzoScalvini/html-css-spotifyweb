@@ -13,51 +13,109 @@
             <div class="app-body">
                 <div class="sidebar">
                         <div>
-                            <img class="logo" src="./img/logo.svg" alt="">
+                            <img class="logo-full" src="./img/logo.svg" alt="">
+                            <img class="logo-small" src="./img/logo-small.svg" alt="">
                         </div>
-                        <div class="menu">
-                            <div class="menu-box menu-selected"><p><i class="fa-solid fa-house icon-size"></i> Home</p></div>
-                            <div class="menu-box"><p><i class="fa-solid fa-magnifying-glass icon-size"></i> Cerca</p></div>
-                            <div class="menu-box"><p><i class="fa-solid fa-lines-leaning icon-size"></i> La tua libreria</p></div>
-                        </div>
+                        
+                        <nav class="main-menu">
+                            <ul>
+                                <li class="menu-item active">
+                                    <!-- ::before -->
+                                    <a href="#">
+                                        <img class="item-icon" src="./img/home.svg" alt="" />
+                                        <span class="item-text"> Home </span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <img class="item-icon" src="./img/search.svg" alt="" />
+                                        <span class="item-text"> Cerca </span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <img class="item-icon" src="./img/libreria.svg" alt="" />
+                                        <span class="item-text"> La tua libreria </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
                         <div class="playlist">
                             <span  class="playlist-title">Playlist</span>
                             <div>
                                 <button class="btn btn-playlist"><i class="fa-solid fa-plus"></i></button>
                                 <span>Crea playlist</span>
                                 <ul>
-                                    <li>Studio Ghibli &#127811;</li>
+                                    <li>Studio Ghibli &#127811; &#127929;</li>
                                     <li>K-pop</li>
-                                    <li>My Stuff</li>
+                                    <li>My Stuff &#128081;</li>
                                     <li>Keshi &#x2665;</li>
-                                    <li>The Legend of Zelda</li>
+                                    <li>The Legend of Zelda &#127808;</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="install">
-                            <p class="download"><i class="fa-solid fa-download"></i> Installa app</p>
+                            <div class="download"><img class="download-icon" src="./img/download.svg" alt=""><span class="download-text">Installa app</span></div>
                             <hr class="solid">
                             <div class="account-icon">
                         </div>
-                        <div class="account-name"><img class="account-icon" src="./img/profile.svg" alt="">LoreLore</div>
+                        <div class="account"><img class="account-icon" src="./img/profile.svg" alt=""><span class="account-name">LoreLore</span></div>
                         </div>
                 </div>
 
-                <div class="music">
+                <div class="app-content">
+                     
                     <div class="premium">
                         <a class="premium-button" href="">effettua l'upgrade</a>
                     </div>
-                    <div class="content"></div>
+                    <div class="content">
+                        <div class="content-menu">
+                            <div><a class="link-menu" href="">in evidenza</a></div>
+                            <div><a class="link-menu" href="">podcast</a></div>
+                            <div><a class="link-menu" href="">classifiche</a></div>
+                            <div><a class="link-menu" href="">generi e mood</a></div>
+                            <div><a class="link-menu" href="">nuove uscite</a></div>
+                            <div><a class="link-menu" href="">scopri</a></div>
+                        </div>
+                        <div>
+                            <h1 class="title-content">Recently played</h1>
+                            <div class="recent">
+                                <div class="recent-item"><img class="recent-img" src="" alt=""><span>AAA</span></div>
+                                <div class="recent-item"><img class="recent-img" src="" alt=""><span>AAA</span></div>
+                                <div class="recent-item"><img class="recent-img" src="" alt=""><span>AAA</span></div>
+                                <div class="recent-item"><img class="recent-img" src="" alt=""><span>AAA</span></div>
+                                <div class="recent-item"><img class="recent-img" src="" alt=""><span>AAA</span></div>
+                                <div class="recent-item"><img class="recent-img" src="" alt=""><span>AAA</span></div>
+                            </div>
+
+                            <div>
+                                <h1 class="title-content">Creato per LoreLore</h1>
+                                <div class="recent">
+                                    <div class="recent-item"><img class="recent-img" src="" alt=""><span>AAA</span></div>
+                                    <div class="recent-item"><img class="recent-img" src="" alt=""><span>AAA</span></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h1 class="title-content">Creato per LoreLore</h1>
+                                <div class="recent">
+                                    <div class="recent-item"><img class="recent-img" src="" alt=""><span>AAA</span></div>
+                                    <div class="recent-item"><img class="recent-img" src="" alt=""><span>AAA</span></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="app-player">
                 <div class="song-info">
                         <div>
-                            <img class="song-img" src="./img/sinister.jpeg" alt="">
+                            <img class="song-img" src="./img/keshi.jpg" alt="">
                         </div>
                         <div>
-                            <span class="artist-playing">Sinister<br></span>
-                            <span class="song-title">Nome canzone</span>
+                            <span class="artist-playing">Soft spot<br></span>
+                            <span class="song-title">keshi</span>
                         </div>
                         <div class="info-icon">
                             <span><i class="fa-regular fa-heart"></i></span>
